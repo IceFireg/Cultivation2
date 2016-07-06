@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Intel(r) IoT Services Orchestration Layer
 ====================================================
 ## Introduction
@@ -165,3 +166,5 @@ They all need a configuration file provided (default to `./config.json` if not s
 
 
 
+
+>>>>>>> 116531ce392261c60196fb10c764d2d1fdaa1d36
