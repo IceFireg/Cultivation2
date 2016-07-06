@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Intel(r) IoT Services Orchestration Layer
 ====================================================
 ## Introduction
@@ -162,9 +161,3 @@ In above demos, we use `run_demo` to start related center or hub. And if you loo
 * Normal way to start a center: `./hub [path-to-a-configuration]`
 
 They all need a configuration file provided (default to `./config.json` if not supplied). Details about the configuration file is also documented in get_started/advanced category of the documentation.
-
-
-
-
-
->>>>>>> 116531ce392261c60196fb10c764d2d1fdaa1d36
