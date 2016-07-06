@@ -1,0 +1,9 @@
+    1  message/broker_client register_impl [type] events
+    2  message/broker_client register_impl [type] http
+    3  message/broker_client register_impl [type] mqtt
+    4  hub        no init script 
+    5  hub        Center need em_fullinfo {
+                    id: "14e8d4548eca5267be28a1ac8ca4004f",
+                    mnode_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__"
+                  }
+TA init

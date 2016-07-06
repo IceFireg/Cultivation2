@@ -1,0 +1,80 @@
+    1  message/broker_client register_impl [type] events
+    2  message/broker_client register_impl [type] http
+    3  message/broker_client register_impl [type] mqtt
+    4  center     Hub Claimed {
+                    id: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__",
+                    mnode_id: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub____mnode__"
+                  }
+    5  center     Found New Hub {
+                    id: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__",
+                    mnode_id: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub____mnode__"
+                  }
+    6  center     EM_CHANGED From Hub 14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__ {
+                    list: [{
+                      type: "service",
+                      cmd: "set",
+                      id: <ARRAY of length: 2>,
+                      obj: <ARRAY of length: 2>
+                    }, {
+                      type: "thing",
+                      cmd: "set",
+                      id: "HOPE_UI_THING__14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__HOPE_APP_a58e1da0_4275_11e6_8ab2_2fe9152c4b5f",
+                      obj: <OBJECT of TYPE: Object>
+                    }, {
+                      type: "hub",
+                      cmd: "set",
+                      id: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__",
+                      obj: <OBJECT of TYPE: Object>
+                    }],
+                    time: {
+                      last: [1467707874, -211071824],
+                      now: [1467707874, -181989361]
+                    },
+                    hub: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__",
+                    hub_mnode_id: "14e8d4548eca5267be28a1ac8ca4004f__built_in_hub____mnode__"
+                  }
+    7  center     EM_CHANGED hub not exist 14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__
+    8  center     EM_FULLINFO From Hub 14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__
+    9  center     FULLINFO of New Hub 14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__ {
+                    last: [1467707874, -211071824],
+                    now: [1467707874, -181989361]
+                  }
+   10  center     EM_FULLINFO From Hub 14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__
+   11  center     Old FULLINFO 14e8d4548eca5267be28a1ac8ca4004f__built_in_hub__ {
+                    last: [1467707874, -211071824],
+                    now: [1467707874, -181989361]
+                  } existing timestamp: {
+                    last: [1467707874, -211071824],
+                    now: [1467707874, -181989361]
+                  }
+   12  center     Hub Claimed {
+                    id: "a4fec8b3ea908c16e4fbee56e08c3b65",
+                    mnode_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__"
+                  }
+   13  center     Found New Hub {
+                    id: "a4fec8b3ea908c16e4fbee56e08c3b65",
+                    mnode_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__"
+                  }
+   14  center     Hub Claimed {
+                    id: "64f141e12370259a526058240b80f79d",
+                    mnode_id: "64f141e12370259a526058240b80f79d__mnode__"
+                  }
+   15  center     Found New Hub {
+                    id: "64f141e12370259a526058240b80f79d",
+                    mnode_id: "64f141e12370259a526058240b80f79d__mnode__"
+                  }
+   16  center     EM_FULLINFO From Hub a4fec8b3ea908c16e4fbee56e08c3b65
+   17  center     FULLINFO of New Hub a4fec8b3ea908c16e4fbee56e08c3b65 {
+                    last: [1467707879, -33086086],
+                    now: [1467707879, 17353032]
+                  }
+   18  center     EM_FULLINFO From Hub 64f141e12370259a526058240b80f79d
+   19  center     FULLINFO of New Hub 64f141e12370259a526058240b80f79d {
+                    last: [1467707879, 34498147],
+                    now: [1467707879, 104195286]
+                  }
+   20  center     workflow_start GRAPH_a597ba90-4275-11e6-bc82-199ebf92b122
+   21  center     workflow_start GRAPH_a597ba90-4275-11e6-bc82-199ebf92b122
+   22  center     workflow_start GRAPH_a597ba90-4275-11e6-bc82-199ebf92b122
+   23  center     workflow_start GRAPH_a597ba90-4275-11e6-bc82-199ebf92b122
+   24  center     workflow_start GRAPH_a597ba90-4275-11e6-bc82-199ebf92b122

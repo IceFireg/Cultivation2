@@ -1,0 +1,1334 @@
+HTTPBroker started at port 16666
+    1  http_broker connect {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: <__null__>,
+                    command: "connect",
+                    data: { port: 19999 }
+                  }
+    2  http_broker add client 
+    3  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "session_invoke_ret"
+                  }
+    4  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "session_send"
+                  }
+    5  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/EM_FULLINFO"
+                  }
+    6  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/CLAIM_AS_HUB"
+                  }
+    7  http_broker subscribe_all {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/CLAIM_AS_HUB" }
+                  }
+    8  http_broker subscribe_all {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/HUB_LEAVE" }
+                  }
+    9  http_broker subscribe_all {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/HEARTBEAT" }
+                  }
+   10  http_broker publish {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/CLAIM_AS_CENTER",
+                      data: {
+                        type: "publish",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/CLAIM_AS_CENTER",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 1,
+                        timestamp: 1467707873576
+                      }
+                    }
+                  }
+   11  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/__RPC__"
+                  }
+   12  http_broker connect {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: <__null__>,
+                    command: "connect",
+                    data: { port: 18888 }
+                  }
+   13  http_broker add client 
+   14  http_broker accept {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "session_invoke"
+                  }
+   15  http_broker connect {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: <__null__>,
+                    command: "connect",
+                    data: { port: 17777 }
+                  }
+   16  http_broker add client 
+   17  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "session_invoke"
+                  }
+   18  http_broker subscribe_all {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/CLAIM_AS_CENTER" }
+                  }
+   19  http_broker subscribe_all {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/CENTER_LEAVE" }
+                  }
+   20  http_broker accept {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/NEED_EM_FULLINFO"
+                  }
+   21  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/CLAIM_AS_HUB",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/CLAIM_AS_HUB",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 1,
+                        timestamp: 1467707879036
+                      }
+                    }
+                  }
+   22  http_broker accept {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/__RPC__"
+                  }
+   23  http_broker subscribe_all {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/CLAIM_AS_CENTER" }
+                  }
+   24  http_broker subscribe_all {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe_all",
+                    data: { topic: "__HOPE__/CENTER_LEAVE" }
+                  }
+   25  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/NEED_EM_FULLINFO"
+                  }
+   26  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/CLAIM_AS_HUB",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/CLAIM_AS_HUB",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 1,
+                        timestamp: 1467707879128
+                      }
+                    }
+                  }
+   27  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "accept",
+                    data: "__HOPE__/__RPC__"
+                  }
+   28  http_broker subscribe {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe",
+                    data: {
+                      client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                      topic: "__HOPE__/EM_CHANGED"
+                    }
+                  }
+   29  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                      topic: "__HOPE__/NEED_EM_FULLINFO",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/NEED_EM_FULLINFO",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 8,
+                        timestamp: 1467707879211
+                      }
+                    }
+                  }
+   30  http_broker subscribe {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "subscribe",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "__HOPE__/EM_CHANGED"
+                    }
+                  }
+   31  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "__HOPE__/NEED_EM_FULLINFO",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/NEED_EM_FULLINFO",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 9,
+                        timestamp: 1467707879264
+                      }
+                    }
+                  }
+   32  http_broker accept {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "__HOPE__/EM_FULLINFO",
+                      message: {
+                        type: "send",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/EM_FULLINFO",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 2,
+                        timestamp: 1467707879375
+                      }
+                    }
+                  }
+   33  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "__HOPE__/EM_FULLINFO",
+                      message: {
+                        type: "send",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/EM_FULLINFO",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 2,
+                        timestamp: 1467707879425
+                      }
+                    }
+                  }
+   34  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 3,
+                        timestamp: 1467707899071
+                      }
+                    }
+                  }
+   35  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 3,
+                        timestamp: 1467707899168
+                      }
+                    }
+                  }
+   36  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "session_invoke",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "session_invoke",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 11,
+                        timestamp: 1467707900338
+                      }
+                    }
+                  }
+   37  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                      topic: "session_invoke",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "session_invoke",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 13,
+                        timestamp: 1467707900341
+                      }
+                    }
+                  }
+   38  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                      topic: "session_invoke",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "session_invoke",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 14,
+                        timestamp: 1467707900345
+                      }
+                    }
+                  }
+   39  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "session_invoke_ret",
+                      message: {
+                        type: "send",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "session_invoke_ret",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 4,
+                        timestamp: 1467707900808
+                      }
+                    }
+                  }
+   40  http_broker accept {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "session_invoke_ret",
+                      message: {
+                        type: "send",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "session_invoke_ret",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 4,
+                        timestamp: 1467707900914
+                      }
+                    }
+                  }
+   41  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 5,
+                        timestamp: 1467707919073
+                      }
+                    }
+                  }
+   42  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 5,
+                        timestamp: 1467707919183
+                      }
+                    }
+                  }
+   43  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 6,
+                        timestamp: 1467707939073
+                      }
+                    }
+                  }
+   44  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 6,
+                        timestamp: 1467707939203
+                      }
+                    }
+                  }
+   45  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 7,
+                        timestamp: 1467707959074
+                      }
+                    }
+                  }
+   46  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 7,
+                        timestamp: 1467707959211
+                      }
+                    }
+                  }
+   47  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 21,
+                        timestamp: 1467707966008
+                      }
+                    }
+                  }
+   48  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 8,
+                        timestamp: 1467707966049
+                      }
+                    }
+                  }
+   49  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 22,
+                        timestamp: 1467707968258
+                      }
+                    }
+                  }
+   50  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 9,
+                        timestamp: 1467707968302
+                      }
+                    }
+                  }
+   51  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 24,
+                        timestamp: 1467707974486
+                      }
+                    }
+                  }
+   52  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 10,
+                        timestamp: 1467707974494
+                      }
+                    }
+                  }
+   53  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 8,
+                        timestamp: 1467707979075
+                      }
+                    }
+                  }
+   54  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 11,
+                        timestamp: 1467707979212
+                      }
+                    }
+                  }
+   55  http_broker accept {
+                    client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                    session_id: "session_c3cb3260_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        to: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 25,
+                        timestamp: 1467707979823
+                      }
+                    }
+                  }
+   56  http_broker accept {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "send",
+                    data: {
+                      client_id: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                      topic: "__HOPE__/__RPC__",
+                      message: {
+                        type: "send",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        to: "14e8d4548eca5267be28a1ac8ca4004f__mnode__",
+                        topic: "__HOPE__/__RPC__",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 12,
+                        timestamp: 1467707979831
+                      }
+                    }
+                  }
+   57  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 9,
+                        timestamp: 1467707999075
+                      }
+                    }
+                  }
+   58  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 13,
+                        timestamp: 1467707999214
+                      }
+                    }
+                  }
+   59  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 10,
+                        timestamp: 1467708019076
+                      }
+                    }
+                  }
+   60  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 14,
+                        timestamp: 1467708019223
+                      }
+                    }
+                  }
+   61  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 11,
+                        timestamp: 1467708039093
+                      }
+                    }
+                  }
+   62  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 15,
+                        timestamp: 1467708039227
+                      }
+                    }
+                  }
+   63  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 12,
+                        timestamp: 1467708059094
+                      }
+                    }
+                  }
+   64  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 16,
+                        timestamp: 1467708059230
+                      }
+                    }
+                  }
+   65  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 13,
+                        timestamp: 1467708079096
+                      }
+                    }
+                  }
+   66  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 17,
+                        timestamp: 1467708079231
+                      }
+                    }
+                  }
+   67  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 14,
+                        timestamp: 1467708099096
+                      }
+                    }
+                  }
+   68  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 18,
+                        timestamp: 1467708099234
+                      }
+                    }
+                  }
+   69  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 15,
+                        timestamp: 1467708119097
+                      }
+                    }
+                  }
+   70  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 19,
+                        timestamp: 1467708119242
+                      }
+                    }
+                  }
+   71  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 16,
+                        timestamp: 1467708139098
+                      }
+                    }
+                  }
+   72  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 20,
+                        timestamp: 1467708139256
+                      }
+                    }
+                  }
+   73  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 17,
+                        timestamp: 1467708159099
+                      }
+                    }
+                  }
+   74  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 21,
+                        timestamp: 1467708159272
+                      }
+                    }
+                  }
+   75  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 18,
+                        timestamp: 1467708179100
+                      }
+                    }
+                  }
+   76  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 22,
+                        timestamp: 1467708179285
+                      }
+                    }
+                  }
+   77  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 19,
+                        timestamp: 1467708199101
+                      }
+                    }
+                  }
+   78  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 23,
+                        timestamp: 1467708199300
+                      }
+                    }
+                  }
+   79  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 20,
+                        timestamp: 1467708219103
+                      }
+                    }
+                  }
+   80  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 24,
+                        timestamp: 1467708219322
+                      }
+                    }
+                  }
+   81  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 21,
+                        timestamp: 1467708239104
+                      }
+                    }
+                  }
+   82  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 25,
+                        timestamp: 1467708239323
+                      }
+                    }
+                  }
+   83  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 22,
+                        timestamp: 1467708259105
+                      }
+                    }
+                  }
+   84  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 26,
+                        timestamp: 1467708259345
+                      }
+                    }
+                  }
+   85  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 23,
+                        timestamp: 1467708279105
+                      }
+                    }
+                  }
+   86  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 27,
+                        timestamp: 1467708279364
+                      }
+                    }
+                  }
+   87  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 24,
+                        timestamp: 1467708299105
+                      }
+                    }
+                  }
+   88  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 28,
+                        timestamp: 1467708299373
+                      }
+                    }
+                  }
+   89  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 25,
+                        timestamp: 1467708319105
+                      }
+                    }
+                  }
+   90  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 29,
+                        timestamp: 1467708319394
+                      }
+                    }
+                  }
+   91  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 26,
+                        timestamp: 1467708339107
+                      }
+                    }
+                  }
+   92  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 30,
+                        timestamp: 1467708339415
+                      }
+                    }
+                  }
+   93  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 27,
+                        timestamp: 1467708359107
+                      }
+                    }
+                  }
+   94  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 31,
+                        timestamp: 1467708359434
+                      }
+                    }
+                  }
+   95  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 28,
+                        timestamp: 1467708379108
+                      }
+                    }
+                  }
+   96  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 32,
+                        timestamp: 1467708379435
+                      }
+                    }
+                  }
+   97  http_broker publish {
+                    client_id: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                    session_id: "session_c7122000_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "a4fec8b3ea908c16e4fbee56e08c3b65__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 29,
+                        timestamp: 1467708399110
+                      }
+                    }
+                  }
+   98  http_broker publish {
+                    client_id: "64f141e12370259a526058240b80f79d__mnode__",
+                    session_id: "session_c71ad290_428b_11e6_8705_21b0c6138c13",
+                    command: "publish",
+                    data: {
+                      topic: "__HOPE__/HEARTBEAT",
+                      data: {
+                        type: "publish",
+                        from: "64f141e12370259a526058240b80f79d__mnode__",
+                        topic: "__HOPE__/HEARTBEAT",
+                        message: <OBJECT of TYPE: Object>,
+                        seq: 33,
+                        timestamp: 1467708399446
+                      }
+                    }
+                  }
